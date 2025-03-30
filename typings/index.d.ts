@@ -9,6 +9,7 @@ declare module '@distube/ytsr' {
       utcOffsetMinutes?: number;
       type?: 'video' | 'playlist';
       requestOptions?: { [key: string]: object } & { headers?: { [key: string]: string } };
+      sp?: string;
     }
 
     interface Image {
