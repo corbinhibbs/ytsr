@@ -30,6 +30,7 @@ declare module '@distube/ytsr' {
       isLive: boolean;
       badges: string[];
       views: number;
+      uploadedAt: string;
       duration: string;
       author: {
         name: string;
